@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Meer - Login</title>
+    
+    <link rel="stylesheet" href="/css/meer.css" type="text/css">
+    
+    </head>
+
+    <body>
+    
+        <div class="loginFrame">
+          <div class="loginToHome" type="button" onclick="location.href='/'">
+            <img class="mainLogo_Login" src="img/mainLogo.png" alt="MainLogo" >
+            <span class="Meer_Login">
+                Meer
+              </span>
+          </div>
+            <div class="logInputFrame">
+                <div class="lonInputSubFr">
+                    <div class="logLine">
+                      <form method="post" action="">
+                        <input type="id" class="id" placeholder="ID" name="id">
+                        <input type="password" class="password" placeholder="Password" name="password">
+                        </div>
+                        <button class="login_but" type="submit">Login</button>
+                      </form>
+                </div>
+            </div>
+            <% var login_result %> 
+            <% if(login_result == 1) {%>
+            <script type='text/javascript'>alert('Invalid password.');</script>
+            <%} else if(login_result == 2) {%>
+            <script type='text/javascript'>alert('ID does not exists.');</script>
+            <%} else {%>
+            <% } %> 
+            <span class="Forgot-your">
+                Forgot your <span class="findPsw" type="button">Password</span> or <span class="findUsern" type="button">Username?</span><br><br>or
+              </span>
+
+              <script language="javascript">
+
+              function popup(url, title, w, h) {
+                var screenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+                var screenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+        
+                width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+                height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+        
+                var left = ((width / 2) - (w / 2)) + screenLeft;
+                var top = ((height / 2) - (h / 2)) + screenTop;
+        
+                window.open(url, title, 'toolbars=no, resizable=no, status=no, scrollbars=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+              }
+              
+              </script>
+
+              <div class="signButton" type="button" onclick="popup('signup','Sign-up','427','639');">
+                <span class="Sign-up">
+                    Sign up
+                  </span>
+              </div>
+            <img class="loginBgImg" src="/img/loginBgImg.png">
+        </div>
+        
+
+
+
+
+
+    </body>

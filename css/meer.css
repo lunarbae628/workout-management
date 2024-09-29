@@ -1,0 +1,1943 @@
+@font-face {
+  font-family: 'IMFELLDoublePicaSC';
+  src: url(../fonts/IMFellDoublePicaSC-Regular.ttf);
+}
+@font-face {
+  font-family: 'inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: 'interBold';
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: 'interRegular';
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: 'interMedium';
+  src: url(../fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: 'interLight';
+  src: url(../fonts/Inter-Light.ttf);
+}
+@font-face {
+  font-family: 'interSemiBold';
+  src: url(../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "interExtraLight";
+  src: url(../fonts/Inter-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url(../fonts/Alegreya-Regular.ttf);
+}
+@font-face {
+  font-family: 'Alegreya-Bold';
+  src: url(../fonts/Alegreya-Bold.ttf);
+}
+@font-face {
+  font-family: 'AlikeAngular';
+  src: url(../fonts/AlikeAngular-Regular.ttf);
+}
+@font-face {
+  font-family: 'Italiana';
+  src: url(../fonts/Italiana-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+/* index.html */
+
+body{
+  margin:0;
+  background-color: #000;
+  overflow-x:hidden; 
+  overflow-y:auto;
+}
+
+.topMainBlock {
+  position: relative;
+  height: 1919px;
+  width: 1920px;
+  border-style: solid;
+  border-color: black;
+}
+
+.homeImg {
+  position: relative;
+  width: 852px;
+  height: 575px;
+  margin: 44px 541px 16px 500px;
+}
+
+.Meer-makes-you {
+  width: 358px;
+  height: 57px;
+  flex-grow: 0;
+  margin-left: 803px;
+  font-family: Alegreya;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Meer-makes-you .text-style-1 {
+  font-size: 40px;
+  font-family: Alegreya-Bold;
+  color: #2b6d5a;
+}
+
+.Meer-makes-you .text-style-2 {
+  font-size: 40px;
+}
+
+.Smarter-Stronger {
+  width: 333px;
+  height: 49px;
+  flex-grow: 0;
+  margin: 57px 0 0 862px;
+  font-family: AlikeAngular;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.and-Better {
+  width: 177px;
+  height: 65px;
+  flex-grow: 0;
+  margin: 49px 83px 0 935px;
+  font-family: Alegreya;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2b6d5a;
+}
+
+.and-Better .text-style-1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.and-Better .text-style-2 {
+  font-size: 50px;
+  font-family: Alegreya-Bold;
+  color: #2b6d5a;
+}
+
+.mainBarBg {
+  position: fixed;
+  width: 100%;
+  height: 62px;
+  flex-grow: 0;
+  margin: 0 0 573px;
+  padding: 9px 34px 13px 27px;
+  background-color: black;
+  z-index: 9999;
+}
+
+.mainHomeButton {
+  width: 200px;
+  height: 50px;
+}
+
+.mainLogo {
+  width: 45.2px;
+  height: 40px;
+  flex-grow: 0;
+  margin: 0 16.8px 0 0;
+}
+
+.Meer {
+  position: absolute;
+  top: 5px;
+  width: 74px;
+  height: 28px;
+  flex-grow: 0;
+  margin: 5px 0px 0px -2px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.About {
+  background-color: #000;
+  position: absolute;
+  left: 780px;
+  top: 20px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Contact {
+  background-color: #000;
+  position: absolute;
+  left: 875px;
+  top: 20px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Community {
+  background-color: #000;
+  position: absolute;
+  left: 990px;
+  top: 20px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.My-Workout {
+  background-color: #000;
+  position: absolute;
+  left: 1110px;
+  top: 20px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.loginButton {
+  font-family: interLight;
+  font-size: 14px;
+  position: absolute;
+  width: 77px;
+  /* height: 22px; */
+  top: 19px;
+  left: 1809px;
+  background: #2B6D5A;
+  border-radius: 40px;
+  text-align: center;
+  transition: background 0.5s ease-in-out,
+              color 0.5s ease-in-out;
+}
+
+.loginButton:hover {
+  background: #3FC1A2;
+  color: white;
+}
+
+.profile_logo {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  flex-grow: 0;
+  top: 15px;
+  left: 1762px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.mainLogo_About {
+  position: absolute;
+  width: 100px;
+  height: 88.5px;
+  top: 1000px;
+  left: 911px;
+}
+
+.Meer2 {
+  width: 102px;
+  height: 56px;
+  position: absolute;
+  top: 1104px;
+  left: 909px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Use-Meer-to-set-your-workout-goals-log-achievements-and-check-changes-also-share-them-with-others {
+  width: 602px;
+  height: 126px;
+  position: absolute;
+  top: 1195px;
+  left: 659px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.firstAboutImg {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 1329px;
+  left: 391px;
+}
+
+.secAboutImg {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 1329px;
+  left: 745px;
+}
+
+.thirdAboutImg {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 1329px;
+  left: 1099px;
+}
+
+.forthAboutImg {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 1329px;
+  left: 1453px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.Make-your-plan-easyliy {
+  width: 230px;
+  height: 98px;
+  position: absolute;
+  top: 1460px;
+  left: 316px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Log-your-achievement {
+  width: 230px;
+  height: 98px;
+  position: absolute;
+  top: 1460px;
+  left: 657px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Analysis-your-workout {
+  width: 230px;
+  height: 98px;
+  position: absolute;
+  top: 1460px;
+  left: 1024px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Share-them {
+  width: 230px;
+  height: 98px;
+  position: absolute;
+  top: 1460px;
+  left: 1378px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.contactBlock {
+  position: relative;
+  height: 1630px;
+  width: 1920px;
+}
+
+.mainBackground {
+  width: 100%;
+  margin: 65px 0 0;
+  padding: 0 0 0 0;
+  background-repeat : no-repeat;
+  background-position:center bottom;
+
+}
+
+.mainLogo_Contact {
+  position: absolute;
+  left: 126px;
+  top: 19px;
+  width: 60px;
+  height: 53.1px;
+  flex-grow: 0;
+}
+
+.Meer3 {
+  width: 102px;
+  height: 56px;
+  flex-grow: 0;
+  position: absolute;
+  top: 25px;
+  left: 200px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Wed-love-to-hear-from-you {
+  width: 782px;
+  height: 294px;
+  position: absolute;
+  flex-grow: 0;
+  left: 126px;
+  top: 113px;
+  font-family: Italiana;
+  font-size: 80px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.firstCircle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 429px;
+  left: -90px;
+  flex-grow: 0;
+  margin: 0 206px 0 0;
+  border-radius: 50%;
+  border: solid 1px #afacaf;
+}
+
+.secondCircle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 429px;
+  left: 227px;
+}
+
+.thirdCircle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 429px;
+  left: 532px;
+  flex-grow: 0;
+  margin: 0 206px 0 0;
+  border-radius: 50%;
+  border: solid 1px #afacaf;
+}
+
+.contactSide {
+  width: 1065px;
+  height: 902px;
+  position: absolute;
+  right: 0px;
+  flex-grow: 0;
+  margin: 0 0 0 553px;
+  padding: 113px 131px 138px 105px;
+  background-color: #ceced0;
+  z-index: 0;
+}
+
+.Contact-us {
+  width: 525px;
+  height: 125px;
+  flex-grow: 0;
+  margin: 0 303px 20px 1px;
+  font-family: Italiana;
+  font-size: 70px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.contactMainTexts {
+  position: absolute;
+  font-family: interRegular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.contactMaintextsLoc1 {
+  top: 282px;
+  left: 105px;
+}
+
+.contactMaintextsLoc2 {
+  top: 282px;
+  left: 582px;
+}
+
+.contactMaintextsLoc3 {
+  top: 394px;
+  left: 105px;
+}
+
+.contactMaintextsLoc4 {
+  top: 394px;
+  left: 582px;
+}
+
+.contactMaintextsLoc5 {
+  top: 506px;
+  left: 105px;
+}
+
+.contactInput {
+  position: absolute;
+  width: 402px;
+  height: 45px;
+  font-family: interRegular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width:1px;
+  border-left-style: none; 
+  border-right-style: none;
+  background-color: #ceced0;
+  color: #828282;
+}
+
+.contactInputLoc1 {
+  top: 323px;
+  left: 105px;
+}
+
+.contactInputLoc2 {
+  top: 323px;
+  left: 582px;
+}
+
+.contactInputLoc3 {
+  top: 435px;
+  left: 105px;
+}
+
+.contactInputLoc4 {
+  top: 435px;
+  left: 582px;
+}
+
+.contactInputLoc5 {
+  top: 547px;
+  left: 105px;
+}
+
+.contactSubmit {
+  position: absolute;
+  height: 21px;
+  top: 630px;
+  left: 102px;
+  font-family: interRegular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  border: none;
+  background-color: #ceced0;
+}
+
+.EMAIL-US {
+  width: 134px;
+  height: 21px;
+  position: absolute;
+  top: 721px;
+  font-family: interRegular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4b4b4b;
+}
+
+.enquiriesmeercom {
+  width: 464px;
+  height: 26px;
+  position: absolute;
+  top: 750px;
+  font-family: interRegular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+/* .mainLogo_Footer {
+  position: absolute;
+  bottom: -150px;
+  right: 173px;
+  width: 100px;
+  height: 88.5px;
+  flex-grow: 0;
+  bottom: 100px;
+  
+} */
+
+/* login.html */
+
+.loginFrame {
+  position: absolute;
+  width: 1920px;
+  height: 100%;
+  background-color: #000;
+  z-index: 99999999;
+}
+
+.mainLogo_Login {
+  position: absolute;
+  left: 886.5px;
+  top: 145px;
+  width: 147px;
+  height: 135px;
+
+}
+
+.Meer_Login {
+  position: absolute;
+  left: 909px;
+  top: 69px;
+  width: 102px;
+  height: 56px;
+  
+  font-family: IMFELLDoublePicaSC;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.logInputFrame {
+  position: relative;
+  top: 320px;
+  left: 756px;
+  width: 409px;
+  height: 198px;
+  border-radius: 10px;
+  border: solid 2px #aeaeae;
+  background-color: black;
+  z-index: -1;
+}
+
+.lonInputSubFr {
+  position: relative;
+  left: 31.5px;
+  top: 28px;
+  width: 346px;
+  height: 94px;
+  border-radius: 10px;
+  border: solid 2px #aeaeae;
+  background-color: #171717;
+  z-index: 0;
+}
+
+.logLine {
+  position: relative;
+  left: 11px;
+  top: 28px;
+  width: 324px;
+  height: 2px;
+  opacity: 0.6;
+  background-color: #d3d3d3;
+}
+
+.id {
+  width: 320px;
+  height: 38px;
+  position: absolute;
+  left: 5px;
+  bottom: 4px;
+  opacity: 0.5;
+  font-family: interRegular;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+  background-color: #171717;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+.password {
+  width: 320px;
+  height: 38px;
+  position: absolute;
+  left: 5px;
+  bottom: -40px;
+  opacity: 0.5;
+  font-family: interRegular;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+  background-color: #171717;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+.login_but{
+  position: absolute;
+  left: -2px;
+  top: 114px;
+  width: 346px;
+  height: 29px;
+  border-radius: 10px;
+  background-color: #171717;
+  border: none;
+  transition: background 0.3s ease-in-out;
+
+  font-family: interLight;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.login_but:hover {
+  background: #3FC1A2;
+}
+
+
+.loginBgImg {
+  position: absolute;
+  
+  width: 830px;
+  height: 762px;
+  left: 936px;
+  top: 170px;
+  background-color: #d9d9d9;
+  z-index: -2;
+}
+
+.Forgot-your {
+  position: absolute;
+  left: 788px;
+  top: 550px;
+  width: 350px;
+  height: 25px;
+  flex-grow: 0;
+  font-family: interRegular;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.findPsw {
+  text-decoration-line: underline;
+}
+
+.findUsern {
+  text-decoration-line: underline;
+}
+
+.signButton {
+  position: absolute;
+  width: 217px;
+  height: 29px;
+  flex-grow: 0;
+  top: 620px;
+  left: 855px;
+  border-radius: 5px;
+  background-color: #2b6d5a;
+  transition: background 0.3s ease-in-out
+}
+
+.signButton:hover {
+  background: #3FC1A2;
+}
+
+.Sign-up {
+  position: relative;
+  left: 78px;
+  top: 3px;
+  width: 120px;
+  height: 25px;
+  flex-grow: 0;
+  font-family: interMedium;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+
+/* Sign-Up */
+
+.signupFrame {
+  position: relative;
+  width: 427px;
+  height: 100%;
+  background-color: #000;
+
+}
+
+.Sign-up-in-frame {
+  position: absolute;
+  width: 243px;
+  height: 72px;
+  left: 94px;
+  top: 27px;
+  font-family: interSemiBold;
+  font-size: 35px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Sign-up-with-one-of-following-options {
+  width: 226px;
+  height: 19px;
+  position: absolute;
+  left: 35px;
+  top: 115px;
+  font-family: interMedium;
+  font-size: 12px;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7c7c7c;
+}
+
+.signupGoogle {
+  position: absolute;
+  left: 85px;
+  top: 163px;
+  width: 35px;
+  height: 35px;
+  flex-grow: 0;
+  
+}
+
+.signupApple {
+  position: absolute;
+  left: 157px;
+  top: 157px;
+  width: 40px;
+  height: 40px;
+  flex-grow: 0;
+  
+}
+
+.signupKakao {
+  position: absolute;
+  left: 234px;
+  top: 160px;
+  width: 35px;
+  height: 35px;
+  flex-grow: 0;
+  
+}
+
+.signupNaver {
+  position: absolute;
+  left: 311px;
+  top: 160px;
+  width: 35px;
+  height: 35px;
+  flex-grow: 0;
+  
+}
+
+.signupInputs {
+  position: absolute;
+  flex-grow: 0;
+  margin: 39px 7px 8px 6px;
+  font-family: interSemiBold;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.signupInputs.loc1 {
+  top: 190px;
+  left: 40px;
+}
+
+.signupInputs.loc2 {
+  top: 270px;
+  left: 40px;
+}
+
+.signupInputs.loc3 {
+  top: 350px;
+  left: 40px;
+}
+
+.signupInputs.loc4 {
+  top: 430px;
+  left: 40px;
+}
+
+.sigupInputBoxs {
+  position: absolute;
+  width: 350px;
+  height: 37px;
+  border-radius: 12px;
+  border: solid 1px #4b4b4b;
+  background-color: #171717;
+  color: white;
+}
+
+.sigupInputBoxs.loc5 {
+  left: 40px;
+  top: 257px;
+}
+
+.sigupInputBoxs.loc6 {
+  left: 40px;
+  top: 337px;
+}
+
+.sigupInputBoxs.loc7 {
+  left: 40px;
+  top: 417px;
+}
+
+.sigupInputBoxs.loc8 {
+  left: 40px;
+  top: 497px;
+}
+
+.signButton2 {
+  position: absolute;
+  top: 552px;
+  left: 41px;
+  width: 349px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #2b6d5a;
+  font-family: interMedium;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  transition: background 0.3s ease-in-out
+}
+
+.signButton2:hover {
+  background: #3FC1A2;
+}
+
+.Already-have-an-account {
+  position: absolute;
+  top: 605px;
+  left: 119px;
+  width: 152px;
+  height: 15px;
+  flex-grow: 0;
+  font-family: interMedium;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7c7c7c;
+}
+
+.loginInSignup {
+  position: absolute;
+  top: 605px;
+  left: 280px;
+  font-family: interMedium;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+
+/* signupSuc.html */
+
+
+.success {
+  position: absolute;
+  width: 243px;
+  height: 72px;
+  left: 95px;
+  top: 230px;
+  font-family: interLight;
+  font-size: 35px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+  }
+ 
+
+.username_box {
+  width: 200px;
+  height: 100px;
+  top: 200px;
+  position: relative;
+  border: 1px solid #000;
+  background-color: none;
+  
+}  
+
+.username_get {
+  width: 350px;
+  height: 25px;
+  position: absolute;
+  top: 320px;
+  left: 38.5px;
+  font-family: interMedium;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+
+.signCheck {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 50px;
+  left: 138.5px;
+}
+
+.signCheck_text {
+  position: absolute;
+  left: 5px;
+  top: 370px;
+  font-family: interLight;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+
+.login_check {
+  position: absolute;
+  left: 40px;
+  top: 480px;
+  width: 346px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #171717;
+  transition: background 0.3s ease-in-out
+}
+
+.login_check:hover {
+  background: #3FC1A2;
+}
+
+.loginReqText_check {
+  left: 148px;
+  top: 10px;
+  position: absolute;
+  flex-grow: 0;
+  font-family: interLight;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+
+}
+
+
+/* profile.ejs */
+
+.profileFrame {
+  position: relative;
+  width: 1900px;
+  height: 800px;
+  top: 80px;
+  left: 8px;
+  border-radius: 10px;
+  border: solid 2px #fff;
+  background-color: #000;
+}
+
+.profileTitle {
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  right: 500px;
+  font-family: interSemiBold;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.profileEdit {
+  padding: 2px 0;
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  top: -46px;
+  left: 1180px;
+  text-align: center;
+  z-index: 2;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
+  text-align: center;
+  transition: background 0.5s ease-in-out,
+              color 0.5s ease-in-out;
+}
+
+.profileEdit:hover {
+  background: #3FC1A2;
+  color: white;
+}
+
+.profileBox {
+  position: relative;
+  width: 500px;
+  height: 700px;
+  top: 60px;
+  left: 43px;
+  border-radius: 10px;
+  border: solid 2px #aeaeae;
+  background-color: #2b6d5a;
+}
+
+.profileImg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 37px;
+  left: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  position: absolute;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  
+}
+
+.username {
+  font-family: interSemiBold;
+  font-size: 26px;
+  top: 360px;
+  left: 20px;
+  right: 20px;
+}
+
+.email {
+  font-family: interExtraLight;
+  font-size: 20px;
+  top: 397px;
+  left: 20px;
+  right: 20px;
+}
+
+.profileMessage {
+  font-family: interRegular;
+  font-size: 24px;
+  top: 440px;
+  left: 20px;
+  right: 20px;
+}
+
+.profileDescription {
+  position: absolute;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  background-color: #2b6d5a;
+  border: none;
+  outline: none;
+  font-family: interRegular;
+  font-size: 20px;
+  top: 500px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  width: 450px;
+  height: 180px;
+  resize: none;
+}
+
+
+.profileDetailBox {
+  border-radius: 10px;
+  border: solid 2px #aeaeae;
+  background-color: #171717;
+}
+
+.profileDetailBoxTop {
+  position: absolute;
+  width: 1250px;
+  height: 335px;
+  top: 60px;
+  left: 600px;
+}
+
+.profileDetailBoxLeft {
+  position: absolute;
+  width: 610px;
+  height: 335px;
+  top: 425px;
+  left: 600px;
+}
+
+.profileDetailBoxRightTop {
+  position: absolute;
+  width: 610px;
+  height: 160px;
+  top: 425px;
+  left: 1240px;
+}
+
+.profileDetailBoxRightBottom {
+  position: absolute;
+  width: 610px;
+  height: 160px;
+  top: 600px;
+  left: 1240px;
+}
+
+.detailInfoTop {
+  position: relative;
+  width: 146px;
+  height: 41px;
+  font-family: interBold;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+
+.detailInfoTop_Fullname {
+  position: absolute;
+  top: 30px;
+  left: 51px;
+}
+
+
+.detailInfoTop_Email {
+  position: absolute;
+  top: 90px;
+  left: 51px;
+}
+
+.detailInfoTop_Username {
+  position: absolute;
+  top: 150px;
+  left: 51px;
+}
+
+.detailInfoTop_Mobile {
+  position: absolute;
+  top: 210px;
+  left: 51px;
+}
+
+.detailInfoTop_Address {
+  position: absolute;
+  top: 275px;
+  left: 51px;
+}
+
+.detailInfoTop_Height {
+  position: absolute;
+  top: 30px;
+  left: 650px;
+}
+
+.detailInfoTop_Weight {
+  position: absolute;
+  top: 90px;
+  left: 650px;
+}
+
+.profileInfoLine {
+  width: 1201px;
+  height: 1px;
+  margin: 5px 0 3px;
+  background-color: #828282;
+}
+
+.profileInfoLine_loc1 {
+  position: absolute;
+  top: 63px;
+  left: 15px;
+}
+
+.profileInfoLine_loc2 {
+  position: absolute;
+  top: 123px;
+  left: 15px;
+}
+
+.profileInfoLine_loc3 {
+  position: absolute;
+  top: 183px;
+  left: 15px;
+}
+
+.profileInfoLine_loc4 {
+  position: absolute;
+  top: 243px;
+  left: 15px;
+}
+
+.profileInfoLine_loc5 {
+  position: absolute;
+  top: 303px;
+  left: 15px;
+}
+
+.profileBigText {
+  position: absolute;
+  width: 318px;
+  height: 52px;
+  margin: 0 0 10px 5px;
+  font-family: interBold;
+  font-size: 24px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.recentPosts-pos {
+  top: 20px;
+  left: 140px;
+}
+
+.SBDRecord-pos {
+  width: 400px;
+  top: 20px;
+  left: 20%;
+  right: 20%;
+}
+
+.Bench-pos {
+  top: 60px;
+  left: -70px;
+}
+
+.Dead-pos {
+  top: 60px;
+  left: 150px;
+}
+
+.Squat-pos {
+  top: 60px;
+  left: 350px;
+}
+
+.profileBigText .text-style-1 {
+  color: #2b6d5a;
+}
+
+.profileBigText .text-style-2 {
+  color: #000;
+}
+
+.postList {
+  position: relative;
+  top: 80px;
+  left: 20px;
+  font-family: interBold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.postTime {
+  position: relative;
+  font-family: interMedium;
+  font-size: 20px;
+  color: #585858;
+}
+
+.totalVolumNum {
+  position: absolute;
+  top: 70px;
+  left: 20%;
+  right: 20%;
+  font-family: interMedium;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f00;
+}
+.totalVolumNum .text-style-1 {
+  top: 70px;
+  left: 20%;
+  right: 20%;
+  color: #fff;
+}
+
+.SBDkgText {
+  font-family: interMedium;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+
+  color: #ff0000;
+}
+
+.SBDkgText .text-style-1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* profileEdit */
+
+
+.profileEditInputs {
+  position: absolute;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  background-color: #2b6d5a;
+  border: none;
+  outline: none;
+}
+
+.userDetailInputs {
+  position: relative;
+  font-family: interSemiBold;
+  font-size: 22px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7C7C7C;
+  background-color: #171717;
+  border: none;
+}
+
+.userDetailData {
+  position: absolute;
+  font-family: interSemiBold;
+  font-size: 22px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7C7C7C;
+  background-color: #171717;
+  border: none;
+}
+
+.userDetailInputsLoc {
+  top: -30px;
+  left: 240px;
+}
+
+.userDetailDataLoc {
+  top: 25px;
+  left: 300px;
+}
+
+.userDetailDataLoc2 {
+  top: 85px;
+  left: 300px;
+}
+
+.userDetailDataLoc3 {
+  top: 145px;
+  left: 300px;
+}
+
+.userDetailDataLoc4 {
+  top: 205px;
+  left: 300px;
+}
+
+.userDetailDataLoc5 {
+  top: 265px;
+  left: 300px;
+}
+
+.userDetailDataLoc6 {
+  top: 25px;
+  left: 900px;
+}
+.userDetailDataLoc6::after {
+  content: " cm";
+}
+
+.userDetailDataLoc7 {
+  top: 85px;
+  left: 900px;
+}
+.userDetailDataLoc7::after {
+  content: " kg";
+}
+
+.image-upload {
+  width: 50px;
+  height: 50px;
+}
+
+.image-upload {
+  position: relative;
+  left: 320px;
+  top: 290px;
+}
+
+
+/* Workout */
+.workoutsFrame {
+  position: relative;
+  width: 614px;
+  height: 799px;
+  top: 60px;
+  left: 193px;
+  border: solid 1px #bebebe;
+  border-left: none;
+  border-top: none;
+}
+
+.workoutBottonBar{
+  position: relative;
+  width: 1727px;
+  height: 78px;
+  top: 798px;
+}
+
+.arrow {
+  position: absolute;
+  left: 264px;
+  width: 20px;
+  top: 30px;
+}
+
+.arrow2 {
+  transform: rotate(180deg);
+  position: absolute;
+  left: 1364px;
+  width: 20px;
+  top: 30px;
+}
+
+.canlenar {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 1400px;
+}
+
+.workoutSideBar {
+  position: absolute;
+  width: 193px;
+  height: 100%;
+  border: solid 1px #bebebe;
+  background-color: white; 
+}
+
+.workoutLogBut {
+  position: absolute;
+  top: 60px;
+  left: -2px;
+  width: 193px;
+  height: 62px;
+  background-color: white;
+  transition: background 0.5s ease-in-out;
+}
+
+.analysisBut {
+  position: absolute;
+  top: 122px;
+  left: -2px;
+  width: 193px;
+  height: 62px;
+  background-color: white;
+  transition: background 0.5s ease-in-out;
+}
+
+.progressBut {
+  position: absolute;
+  top: 182px;
+  left: -2px;
+  width: 193px;
+  height: 62px;
+  background-color: white;
+  transition: background 0.5s ease-in-out;
+}
+
+.planBut {
+  position: absolute;
+  top: 242px;
+  left: -2px;
+  width: 193px;
+  height: 62px;
+  background-color: white;
+  transition: background 0.5s ease-in-out;
+}
+
+.workoutLogBut:hover {
+  background: #d9d9d9;
+}
+
+.analysisBut:hover {
+  background: #d9d9d9;
+}
+
+.progressBut:hover {
+  background: #d9d9d9;
+}
+
+.planBut:hover {
+  background: #d9d9d9;
+}
+
+.workoutLogImg {
+  position: absolute;
+  top: 7px;
+  left: 22px;
+  width: 40px;
+  height: 40px;
+}
+
+.workoutSideText {
+  position: absolute;
+  top: 15px;
+  left: 77px;
+  font-family: IMFELLDoublePicaSC;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.workoutLine {
+  position: absolute;
+  width: 572px;
+  height: 1px;
+  top: 132px;
+  left: 18px;
+  background-color: rgba(190, 190, 190, 0.5);
+}
+
+.workoutsTopBar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 614px;
+  height: 144px;
+}
+
+.workoutCategoryBut {
+  position: absolute;
+  width: 87px;
+  height: 29px;
+  top: 19px;
+  left: 23px;
+  border-radius: 20px;
+  background-color: white;
+  border: solid 1px black;
+  font-family: Montserrat-Medium;
+  font-size: 14px;
+  transition: all 0.5s ease-in-out;
+}
+
+.chestButLoc {
+  top: 19px;
+  left: 23px;
+}
+
+.backButLoc {
+  top: 19px;
+  left: 120px;
+}
+
+.shoulderButLoc {
+  top: 19px;
+  left: 217px;
+}
+
+.legsButLoc {
+  top: 19px;
+  left: 314px;
+}
+
+.armsButLoc {
+  top: 19px;
+  left: 411px;
+}
+
+.absButLoc {
+  top: 19px;
+  left: 508px;
+}
+
+.cadioButLoc {
+  top: 54px;
+  left: 23px;
+}
+
+.etcButLoc {
+  top: 54px;
+  left: 120px;
+}
+
+.workoutCategoryBut:hover {
+  border: none;
+  background: #3FC1A2;
+}
+
+.researchWorkouts {
+  position: absolute;
+  width: 325px;
+  height: 26px;
+  top: 90px;
+  left: 23px;
+  padding: 0 0 0 37px;
+  flex-grow: 0;
+  border-radius: 20px;
+  border: solid 2px #000;
+  background-color: #fff;
+}
+
+.searchImg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 94px;
+  left: 31px;
+}
+
+.bookmarkWorkoutBut {
+  position: absolute;
+  width: 31px;
+  height: 21px;
+  top: 94px;
+  left: 354px;
+}
+
+.addCategoryImg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 94px;
+  left: 484px;
+}
+
+.addCategoryText{
+  font-family: interRegular;
+  font-size: 14px;
+  position: absolute;
+  top: 94px;
+  left: 505px;
+}
+
+.workoutsShowFrame {
+  position: absolute;
+  top: 144px;
+  left: 0px;
+  width: 614px;
+  height: 654px;
+}
+
+.workoutMakeRoutien {
+  position: relative;
+  left: 614px;
+  top: -143px;
+  width: 1113px;
+  height: 798px;
+  border-bottom: solid 1px #bebebe;
+}
